@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			html,body{
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+			}
+			.out{
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			#back{
+				width: 100%;
+				height: 100%;
+				object-fit: fill;
+			}
+			.logo{
+				width: 100px;
+				position: absolute;
+				left: 4%;
+				top: 4%;
+			}
+			ul{
+				list-style: none;
+				/*border: 1px solid black;
+				background-color: pink;
+				overflow: hidden;*/
+			}
+			#role{
+				position: absolute;
+				left: 60%;
+				top: 8%;
+			}
+			#role li{
+				float: left;
+				margin: 0 15px;
+				font-size: small;
+				color: white;
+			}
+			#role img{
+				width: 20px;
+			}
+			#slogan{
+				position: absolute;
+				top: 45%;
+				left: 60%;
+				width: 300px;
+			}
+			#down{
+				position: absolute;
+				top: 60%;
+				left: 60%;
+			}
+			#down li{
+				float: left;
+				margin: 0 5px;
+			}
+			#down img{
+				height: 40px;
+				border-radius: 10px;
+			}
+			.downPic:hover{
+				transform: scale(4);
+			}
+			.bottom{
+				position: absolute;
+				color: white;
+				font-size: x-small;
+			}
+			#first_bottom{
+				left: 30%;
+				top:80%;
+			}
+			#second_bottom{
+				left: 23%;
+				top: 85%;
+			}
+			#third_bottom{
+				left: 20%;
+				top:90%
+			}
+			#fourth_bottom{
+				left: 40%;
+				top: 95%;
+			}
+			.bottom span{
+				padding: 0 30px;
+				border-left: 1px solid white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="out">
+			<video id="back" controls  src="img/douyin.mp4" autoplay="autoplay" loop="loop"></video>
+			<img class= "logo" src="img/logo.png" />
+			<ul id="role">
+				<li>抖音音乐人</li>
+				<li>机构认证</li>
+				<li>企业认证</li>
+				<li><img src="img/yinliang.png"/></li>
+			</ul>
+			<img id="life" src="img/wenben.png" />
+			<ul id="down">
+				<li><img src="img/android.png"/></li>
+				<li><img src="img/appstore.png"/></li>
+				<li><img class="downPic" src="img/erweima.png"/></li>
+			</ul>
+			<div class="bottom"  id="first_bottom">
+				<span>音乐</span>
+				<span>用户服务协议</span>
+				<span>隐私政策</span>
+				<span>账号找回</span>
+				<span>联系我们</span>
+				|
+			</div>
+			<div class="bottom" id="second_bottom">
+				<span style="border:none">2018©抖音</span> 
+				<span>京ICP16016397号-3</span>  
+				<span>北京微播视界科技有限公司 </span>  
+				<span>地址：北京市海淀区知春路51号4层408</span>
+			</div>
+			<div class="bottom" id="third_bottom">
+				<span style="border: none;">中国互联网举报中心</span>
+				<span>网络文化许可证-京网文-（2016）2282-264号  </span>
+				<span>违法和不良信息举报：010-83434212</span> 
+				<span>举报邮箱：jubao@douyin.com</span>
+			</div>
+			<div class="bottom" id="fourth_bottom">
+				<img src="img/gongan.png" />
+				京公安网备案&nbsp;&nbsp;10938309183013号
+			</div>
+	</body>
+</html>
